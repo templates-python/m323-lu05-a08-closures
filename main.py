@@ -1,12 +1,17 @@
-def calculate():
+def create_multiplier(multiplier):
     """
-    calculates the total
-    :return: None
+    Erstellt eine innere Funktion, die Zahlen mit dem angegebenen Multiplikator multipliziert.
+
+    Args:
+        multiplier (int or float): Der Multiplikator, mit dem die Zahlen multipliziert werden sollen.
+
+    Returns:
+        function: Eine innere Funktion, die eine Zahl akzeptiert und sie mit dem Multiplikator multipliziert.
     """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+    # TODO: Implementiere die Multiplikation
+    ...
 
 
 if __name__ == '__main__':
-    calculate()
+    multiply_by_three = create_multiplier(3)
+    print(multiply_by_three(4))  # Erwarteter Output: 12
