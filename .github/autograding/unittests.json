@@ -1,0 +1,8 @@
+[
+  {
+    "name": "test_create_multiplier",
+    "function": "test_create_multiplier",
+    "timeout": 10,
+    "points": 1
+  }
+]
