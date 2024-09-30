@@ -8,9 +8,11 @@ def create_multiplier(multiplier):
     Returns:
         function: Eine innere Funktion, die eine Zahl akzeptiert und sie mit dem Multiplikator multipliziert.
     """
+
     def inner_function(n):
         """Multipliziert die übergebene Zahl mit dem Multiplikator der äußeren Funktion."""
         return n * multiplier
+
     return inner_function
 
 

@@ -1,5 +1,6 @@
 from main import create_multiplier
 
+
 def test_create_multiplier():
     multiply_by_two = create_multiplier(2)
     assert multiply_by_two(3) == 6, "Fehler beim Multiplizieren mit 2"
