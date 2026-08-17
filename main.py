@@ -1,3 +1,8 @@
+"""Erstellung eines Multiplikators mit Closures.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu05/aufgaben/closures
+"""
+
 def create_multiplier(multiplier):
     """
     Erstellt eine innere Funktion, die Zahlen mit dem angegebenen Multiplikator multipliziert.
